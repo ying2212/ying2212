@@ -1,8 +1,33 @@
-# Hey, I'm Guan!  
-[ **Check out my Portfolio**](https://ying2212.github.io/Ying-Portfolio/)
+# Guan Ying Goh
 
-**Aspiring Data Analyst | Software Engineer**  
-**Undergraduate at CUNY Hunter College**  
-Majoring in **Computer Science** and **Mathematics**
+Aspiring Data Engineer | Software Engineer  
 
 ---
+
+## About Me
+I'm an undergraduate student at CUNY Hunter College with a background in Computer Science and Mathematics. I enjoy leveraging technology to create solutions, continuously learning, and tackling challenging problems.
+
+[View My Portfolio](https://ying2212.github.io/ying2212/)  
+[Resume PDF](RESUME%20-%20Guan%20Ying%20Goh.pdf)
+
+---
+
+## Skills
+
+**Programming Languages:** C++, C#, Python, HTML, CSS, JavaScript  
+**Frameworks & Libraries:** .NET MAUI, React, React Native, Node.js, Express.js, Pandas, NumPy  
+**Databases:** PostgreSQL, MongoDB, Neo4j  
+**Tools & Technologies:** Tableau, Excel, GitHub, Google Colab, AWS, VS Code, Git  
+**Certifications:** Google Data Science, CodePath Intro to Web Development, Machine Learning Foundation  
+**Awards:** 1st Place - Girls Who Code x WiCS Hackathon  
+
+---
+
+## Contact
+- Email: gohguanying@gmail.com  
+- [LinkedIn](https://www.linkedin.com/in/ying2212/)  
+- [GitHub](https://github.com/ying2212)  
+
+---
+
+&copy; 2025 Guan Ying Goh
