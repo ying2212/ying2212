@@ -14,7 +14,7 @@ I'm an undergraduate student at CUNY Hunter College with a background in Compute
 ## Skills
 
 **Programming Languages:** C++, C#, Python, HTML, CSS, JavaScript  
-**Frameworks & Libraries:** React, React Native, Node.js, Express.js, .NET MAUI
+**Frameworks & Libraries:** React, React Native, Node.js, Express.js, .NET MAUI  
 **Databases:** PostgreSQL, MongoDB, Neo4j  
 **Tools & Technologies:** Tableau, Excel, GitHub, VS Code, Git  
 **Certifications:** Google Data Science, CodePath Intro to Web Development, Machine Learning Foundation  
