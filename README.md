@@ -11,6 +11,25 @@ I'm an undergraduate student at CUNY Hunter College with a background in Compute
 [Resume PDF](RESUME%20-%20Guan%20Ying%20Goh.pdf)
 
 ---
+## Featured Projects
+
+### HetioNet: Bioinformatics Data Analysis  
+*Coursework | Mar 2025*  
+Modeled HetioNet relationships with NoSQL databases (MongoDB, Neo4j) and developed GUI with Tkinter.
+
+### Driver Fuel Consumption Analysis  
+*Personal Project | Jan 2025*  
+Analyzed driver fuel consumption data to detect inefficiencies and fraudulent claims.
+
+### Shopify Feature in Mobile Development  
+*DNR Events LLC | Software Engineer Intern | Feb 2024 – Apr 2024*  
+Developed shop features using .NET MAUI, led a team of three interns, and integrated API/backend data.
+
+### FoodLink  
+*HackCUNY Hackathon 2024*  
+Front-end development for a web platform connecting food banks and reducing food waste.
+
+--- 
 
 ## Skills
 
