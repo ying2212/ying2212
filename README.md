@@ -18,5 +18,5 @@ I'm an undergraduate student at CUNY Hunter College with a background in Compute
 **Databases:** PostgreSQL, MongoDB, Neo4j  
 **Tools & Technologies:** Tableau, Excel, GitHub, VS Code, Git  
 **Certifications:** Google Data Science, CodePath Intro to Web Development, Machine Learning Foundation  
-**Awards:** 1st Place - Girls Who Code x WiCS Hackathon  
+**Awards:** 1st Place - Girls Who Code x WiCS Hackathon 2022
 
