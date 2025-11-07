@@ -5,8 +5,6 @@ Aspiring Data Engineer | Software Engineer
 ---
 
 ## About Me
-I'm an undergraduate student at CUNY Hunter College with a background in Computer Science and Mathematics. I enjoy leveraging technology to create solutions, continuously learning, and tackling challenging problems.
-
 [View My Portfolio](https://ying2212.github.io/ying2212/)  
 
 --- 
