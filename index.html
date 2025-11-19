@@ -3,217 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Guan Ying Goh - Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Permanent+Marker&family=Caveat:wght@400;700&family=Architects+Daughter&display=swap">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul style="display: flex; align-items: center; margin-left:-20px;">
-          
-                Guan Ying Goh
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="about" >
-        <div class="about-content" >
-            <div class="text" >
-                <h2>Hey, I'm Guan!</h2>
-                <p style="font-weight: bold;">Aspiring Data Engineer | Software Engineer</p>
-                <p>Undergraduate student at CUNY Hunter College with a background in Computer Science and Mathematics.</p>
-                <p>Self-driven · Passionate · Dedication</p>
-                <a href="RESUME - Guan Ying Goh.pdf" class="resume-btn" target="_blank">
-                    <button class="button">RESUME</button>
-                </a>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Logo" style="width: 40px;">
+            Guan Ying Goh
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="doodle doodle-squiggle"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="name-overlay">Guan</div>
+                <div class="handwritten-intro">Hi. Since you're new here,</div>
+                <p class="subtitle">let me be your guide</p>
+                <h1>This is<br>Guan</h1>
+                
+                <p class="description">Aspiring Data Engineer | Software Engineer<br>
+                Self-driven · Passionate · Dedicated</p>
+                <a href="RESUME - Guan Ying Goh.pdf" class="cta-button" target="_blank">VIEW RESUME</a>
             </div>
-            <div class="image">
-                <img src="profile.jpeg" alt="Guan's picture">
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <div class="image-text top">that's me!</div>
+                    <img src="profile.JPG" alt="Guan Ying Goh">
+                    <div class="image-text bottom">:)</div>
+                </div>
             </div>
         </div>
     </section>
-    
-        
-    <section id="projects">
-        <h2>Projects</h2>
 
-        <div class="project">
-            <a href="https://github.com/fabiolaliwu/CapstoneFall2025" class="link">
-                
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
                 <h3>Stay in the Loop</h3>
-                <h4> Capstone Project | Present</h4>
-            </a>
-            <p>Working with team of 4 to build a web application for NYC people in a community to report incidents, share updates, and chat/connect with other travelers.</p>
-        </div>
+                <p class="subtitle">Capstone Project | Present</p>
+                <p>Working with team of 4 to build a web application for NYC people in a community to report incidents, share updates, and chat/connect with other travelers.</p>
+                <a href="https://github.com/fabiolaliwu/CapstoneFall2025" class="project-link" target="_blank">Check it out →</a>
+            </div>
 
-        <div class="project">
-            <a href="https://github.com/aarondon1/Brightside-Health-1B" class="link">
-                
+            <div class="project-card">
                 <h3>Clinical Knowledge Graph</h3>
-                <h4>Brightside Health Inc AI Studio | Present</h4>
-            </a>
-            <p>Extracted, validated, and normalized data with RxNorm, SNOMED CT, and LOINC, and loaded structured JSON into Neo4j to build a knowledge graph for research and decision support.</p>
-        </div>
+                <p class="subtitle">Brightside Health Inc AI Studio | Present</p>
+                <p>Extracted, validated, and normalized data with RxNorm, SNOMED CT, and LOINC, and loaded structured JSON into Neo4j to build a knowledge graph for research and decision support.</p>
+                <a href="https://github.com/aarondon1/Brightside-Health-1B" class="project-link" target="_blank">Check it out →</a>
+            </div>
 
-        <div class="project">
-            <a href="https://github.com/SIMPLE-AstroDB/SIMPLE-db" class="link">
-                
+            <div class="project-card">
                 <h3>SIMPLE Database</h3>
-                <h4>Data Ingestion  Intern at American Musuem of Natural Hisotry's Astrophysics Department | Present</h4>
-            </a>
-            <p>Design and implement scalable backend ingestion pipeline using Python and SQL to ingest for over 2,000+ astronomical objects into SIMPLE, an AWS-hosted online database.</p>
-        </div>
+                <p class="subtitle">Data Ingestion Intern at AMNH | Present</p>
+                <p>Design and implement scalable backend ingestion pipeline using Python and SQL to ingest for over 2,000+ astronomical objects into SIMPLE, an AWS-hosted online database.</p>
+                <a href="https://github.com/SIMPLE-AstroDB/SIMPLE-db" class="project-link" target="_blank">Check it out →</a>
+            </div>
 
-        <div class="project">
-            <a href="https://github.com/CSCI-40500-Fall-2025/project-project-9" class="link">
-                
+            <div class="project-card">
                 <h3>Lifted AI</h3>
-                <h4> CSCI 405 Software Engineering Course Project | Present</h4>
-            </a>
-            <p>A mobile application that features an AI-chatbot therapist that facilitates easier access to mental health support.</p>
-        </div>
+                <p class="subtitle">CSCI 405 Software Engineering | Present</p>
+                <p>A mobile application that features an AI-chatbot therapist that facilitates easier access to mental health support.</p>
+                <a href="https://github.com/CSCI-40500-Fall-2025/project-project-9" class="project-link" target="_blank">Check it out →</a>
+            </div>
 
-        <div class="project">
-            <a href="https://github.com/ying2212/HetioNet" class="link">
-                
-                <h3>HetioNet: Bioinformatics Data Analysis </h3>
-                <h4>CourseWork | Mar 2025</h4>
-            </a>
-            <p>Build a database system to model HetioNet, capturing relationships between biological data types with NoSQL database integration (MongoDB, Neo4j), GUI development Tkinter.</p>
-        </div>
-        <div class="project">
-            <a href="https://github.com/ying2212/Driver-Fuel-Consumption-Analysis" class="link">
-                
-                <h3>Driver Fuel Consumption Analysis </h3>
-                <h4>Personal Project | Jan 2025</h4>
-            </a>
-            <p>Analyze driver fuel consumption data to detect inefficiencies and fraudulent claims.</p>
-        </div>
+            <div class="project-card">
+                <h3>HetioNet</h3>
+                <p class="subtitle">Bioinformatics Data Analysis | Mar 2025</p>
+                <p>Build a database system to model HetioNet, capturing relationships between biological data types with NoSQL database integration (MongoDB, Neo4j), GUI development Tkinter.</p>
+                <a href="https://github.com/ying2212/HetioNet" class="project-link" target="_blank">Check it out →</a>
+            </div>
 
-        <div class="project">
-                
-                <h3>Shopify Feature in Mobile Development</h3>
-                <h4>DNR Events LLC | Software Engineer Intern | Feb 2024 – Apr 2024</h4>
-            </a>
-            <li>Designed and implemented key shop features for the mobile application and its API using .Net MAUI, enhancing system functionality and contributing to the frontend’s development.</li>
-            <li>Led a team of three software developer interns, focusing on system optimization, which improved software quality.</li>
-            <li>Parsed data from .atom files to display product information within the app, ensuring up-to-date content for users and integration with backend systems.</li>
-
-        </div>
-
-        <div class="project">
-            <a href="https://devpost.com/software/tour-guide-suggestion " class="link">
-                
-                <h3>FoodLink</h3>
-                <h4>HackCUNY Hackthon 2024 | Feb 2024 </h4>
-            </a>
-            <p>Develop a web platform to improve access to food banks and reduce food waste. Responsible in the front-end development.</p>
-        </div>
-
-        <div class="project">
-            <a href="https://github.com/ying2212/CSCI235-Project" class="link">
-                
-                <h3>Backend Tavern Management System: Game Developmenet</h3>
-                <h4>CSCI 235 Coursework | Dec 2023</h4>
-            </a>
-            <p>Design a backend system and simulate a tavern where players manage characters, engage in combat, and interact with NPCs.</p>
-        </div>
-        <div class="project">
-            <a href="https://github.com/ying2212/Hackathon" class="link">
-                
-                <h3>How Does Stereotypes Cause Barriers In Tech?</h3>
-                <h4>Girls Who Code X WiCS Hackathon Project | Dec 2022</h4>
-            </a>
-            <p>Create an interactive website addressing gender stereotypes and their impact on career barriers.</p>
-        </div>
-
+            <div class="project-card">
+                <h3>Driver Fuel Consumption Analysis</h3>
+                <p class="subtitle">Personal Project | Jan 2025</p>
+                <p>Analyze driver fuel consumption data to detect inefficiencies and fraudulent claims.</p>
+                <a href="https://github.com/ying2212/Driver-Fuel-Consumption-Analysis" class="project-link" target="_blank">Check it out →</a>
+            </div>
         </div>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill">
-                <h3>Programming Languages</h3>
+    <section class="skills" id="skills">
+        <h2 class="section-title">Skills & Stuff</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>💻 Programming Languages</h3>
                 <p>C++, C#, Python, HTML, CSS, JavaScript</p>
             </div>
-        
-            <div class="skill">
-                <h3>Frameworks & Libraries</h3>
+            <div class="skill-card">
+                <h3>🛠️ Frameworks & Libraries</h3>
                 <p>.NET MAUI, React, React Native, Node.js, Express.js, Pandas, NumPy</p>
             </div>
-        
-            <div class="skill">
-                <h3>Databases</h3>
+            <div class="skill-card">
+                <h3>🗄️ Databases</h3>
                 <p>PostgreSQL, MongoDB, Neo4j</p>
             </div>
-        
-            <div class="skill">
-                <h3>Tools</h3>
+            <div class="skill-card">
+                <h3>🔧 Tools</h3>
                 <p>Tableau, Excel, GitHub, Google Colab, AWS, Visual Studio Code, Git</p>
             </div>
-        
-            <div class="skill">
-                <h3>Technologies</h3>
-                <p>Data Analysis (NoSQL, MapReduce, PostgreSQL), Data Visualization, Web Development, Mobile Development, Game Development</p>
-            </div>
-        
-            <div class="skill">
-                <h3>Certifications</h3>
-                <p>Google Data Science, CodePath Intro to Web Development, Machine Learning Foundation</p>
-            </div>
-        
-            <div class="skill">
-                <h3>Awards</h3>
+            <div class="skill-card">
+                <h3>🏆 Awards</h3>
                 <p>1st Place Winner - Girls Who Code x WiCS Hackathon</p>
             </div>
-                </div>
-    </section>
-
-
-    <section id="About">
-        <ul style="display: flex; align-items: center; margin-left:-20px; font-size:25px ; margin-left:-35px;">
-            <img src="https://64.media.tumblr.com/e3097b5046884f299b877bb6f0ab8da6/tumblr_mmxhz8FdnY1rfjowdo1_500.gif" alt="Logo" style="width:3rem;margin-right:7px;
-">
-            A Little About Me :)
-        </ul>
-        <p style="text-align: left;">
-            Growing up in Malaysia with an entrepreneurial background, I’ve always been drawn to finding creative solutions to problems. 
-            I believe that technology has the power to transform industries, 
-            and I'm eager to use my skills in software engineering and data analysis to help businesses innovate and grow. </p>
-        <p style="text-align: left;">I’m passionate about continuous learning and excited about the opportunity to apply my experiences 
-            to make a real impact while continuing to grow both personally and professionally.</p>
-            
-    </section>
-
-
-    <section id="image-gallery"  style="border-bottom: none;">
-
-        <div class="image-container" >
-            <img src="mimi.JPG" alt="Image 1">
-            <img src="IMG_8362.JPG" alt="Image 2">
-            <img src="GWC.png" alt="Image 6">
-            <img src="Symposium.png" alt="Image 5">
-            <img src="IMG_9347.jpg" alt="Image 3" style=" max-width: 20%;">
-            <img src="pickleball.jpg" alt="Image 4" >
-            <img src="friend.JPG" alt="Image 4" >
+            <div class="skill-card">
+                <h3>📜 Certifications</h3>
+                <p>Google Data Science, CodePath Intro to Web Development, Machine Learning Foundation</p>
+            </div>
         </div>
+    </section>
 
+    <section class="about" id="about">
+        <h2 class="section-title">A Little About Me :)</h2>
+        <div class="about-content">
+            <p>Growing up in Malaysia with an entrepreneurial background, I've always been drawn to finding creative solutions to problems. I believe that technology has the power to transform industries, and I'm eager to use my skills in software engineering and data analysis to help businesses innovate and grow.</p>
+            <p>I'm passionate about continuous learning and excited about the opportunity to apply my experiences to make a real impact while continuing to grow both personally and professionally.</p>
+        </div>
     </section>
-    
-    
-    <section id="social-links"  style="border-bottom: none;">
-        <h2>Contact</h2>
-        <a>gohguanying@gmail.com</a> | 
-        <a href="https://www.linkedin.com/in/ying2212/" target="_blank" class="social-link">LinkedIn</a> | 
-        <a href="https://github.com/ying2212" target="_blank" class="social-link">GitHub</a>
-        
+
+    <section class="gallery">
+        <h2 class="section-title">Some Memories</h2>
+        <div class="gallery-grid">
+            <img src="mimi.JPG" alt="Gallery 1">
+            <img src="IMG_8362.JPG" alt="Gallery 2">
+            <img src="GWC.png" alt="Gallery 3">
+            <img src="symposium.png" alt="Gallery 4">
+            <img src="IMG_9347.jpg" alt="Gallery 5">
+            <img src="pickleball.jpg" alt="Gallery 6">
+            <img src="friend.JPG" alt="Gallery 7">
+        </div>
     </section>
-    
-    
-    <footer style="border-bottom: none;">
-        <p>&copy; 2025 Guan Ying Goh</p> 
-        <p>All rights reserved.</p>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">let's make friend:)</h2>
+        <div class="contact-links">
+            <a href="mailto:gohguanying@gmail.com">Email Me</a>
+            <a href="https://www.linkedin.com/in/ying2212/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/ying2212" target="_blank">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Guan Ying Goh | Made with ♡</p>
     </footer>
 </body>
 </html>
