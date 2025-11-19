@@ -301,20 +301,30 @@ nav {
     background: #fff;
     position: relative;
 }
-.about-content {
-    max-width: 1000px;
-    margin: 0 auto;
-}
 
 .about-top {
     display: flex;
-    align-items: flex-start; 
-    gap: 2rem; 
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
 }
 
 .about-image {
-    width: 80px; 
+    width: 80px;
     height: auto;
+    border-radius: 50%;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .about-content p {
@@ -323,6 +333,12 @@ nav {
     line-height: 1.8;
     color: #555;
     margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .about-top {
+        flex-direction: column;
+    }
 }
 
 /* Gallery */
