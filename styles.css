@@ -177,23 +177,6 @@ nav {
     box-shadow: 7px 7px 0px #ff85b3;
 }
 
-/* Doodle decorations */
-.doodle {
-    position: absolute;
-    opacity: 0.2;
-    pointer-events: none;
-}
-
-.doodle-squiggle {
-    width: 200px;
-    height: 200px;
-    border: 6px solid #ff85b3;
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    bottom: 10%;
-    right: 5%;
-    animation: rotate 20s linear infinite;
-}
-
 /* Projects Section */
 .projects {
     padding: 5rem 10%;
@@ -318,11 +301,21 @@ nav {
     background: #fff;
     position: relative;
 }
-
 .about-content {
     max-width: 800px;
     margin: 0 auto;
-    text-align: center;
+}
+
+.about-top {
+    display: flex;
+    align-items: flex-start; 
+    gap: 2rem; 
+}
+
+.about-image {
+    width: 150px; 
+    height: auto;
+    border-radius: 10px;
 }
 
 .about-content p {
