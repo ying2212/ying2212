@@ -460,3 +460,181 @@ footer {
         font-size: 3rem;
     }
 }
+/* ─── Journey / Timeline Section ─── */
+.journey {
+    padding: 5rem 0 5rem 10%;
+    background: #f5f1e8;
+    overflow: hidden;
+}
+
+.journey .section-title {
+    padding-right: 10%;
+}
+
+.journey-subtitle {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.6rem;
+    color: #999;
+    text-align: center;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+    padding-right: 10%;
+}
+
+.timeline-wrapper {
+    position: relative;
+}
+
+.timeline-track {
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+    padding: 2rem 10% 3rem 0;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    cursor: grab;
+}
+
+.timeline-track::-webkit-scrollbar { display: none; }
+.timeline-track:active { cursor: grabbing; }
+
+.timeline-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    width: 240px;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+/* Dashed connector line */
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    width: 100%;
+    height: 3px;
+    background: repeating-linear-gradient(
+        to right,
+        #333 0px, #333 8px,
+        transparent 8px, transparent 16px
+    );
+    z-index: 0;
+}
+.timeline-item:last-child::before { display: none; }
+
+.timeline-dot {
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border: 3px solid #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.timeline-item:hover .timeline-dot {
+    transform: scale(1.15);
+    box-shadow: 4px 4px 0px #ff85b3;
+}
+
+.timeline-item--now .timeline-dot {
+    background: #ff85b3;
+    border-color: #ff85b3;
+}
+
+.timeline-year {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1rem;
+    color: #ff85b3;
+    margin: 0.4rem 0 0.8rem;
+}
+
+.timeline-item--now .timeline-year { color: #333; font-size: 1.1rem; }
+.timeline-item--next .timeline-year { color: #bbb; }
+
+.timeline-card {
+    background: #fff;
+    border: 3px solid #333;
+    padding: 1rem 1.1rem;
+    width: 200px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.timeline-item:hover .timeline-card {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0px #ff85b3;
+}
+
+.timeline-card h4 {
+    font-family: 'Caveat', cursive;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0.4rem 0;
+}
+
+.timeline-card p {
+    font-size: 0.85rem;
+    color: #777;
+    line-height: 1.5;
+}
+
+.timeline-card--next {
+    border-style: dashed;
+    background: #f5f1e8;
+}
+.timeline-card--next h4 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.4rem;
+    color: #bbb;
+}
+.timeline-card--next p {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.tl-tag {
+    display: inline-block;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 0.65rem;
+    padding: 0.15rem 0.6rem;
+    border-radius: 50px;
+    border: 2px solid #333;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.tl-tag--intern { background: #ffe5f0; color: #333; }
+.tl-tag--fellow { background: #d6f0ff; color: #333; }
+.tl-tag--club   { background: #e8ffe5; color: #333; }
+
+.timeline-scroll-hint {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.2rem;
+    color: #bbb;
+    text-align: right;
+    padding-right: 10%;
+    margin-top: 0.5rem;
+    animation: nudge 2s ease-in-out infinite;
+}
+
+@keyframes nudge {
+    0%, 100% { transform: translateX(0); }
+    50%       { transform: translateX(6px); }
+}
+
+@media (max-width: 768px) {
+    .journey { padding-left: 5%; }
+    .timeline-item { width: 200px; }
+    .timeline-card { width: 170px; }
+}
